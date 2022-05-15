@@ -9,7 +9,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title></title>
+<!-- begin _includes/seo.html --><title>Contact Me -</title>
 <meta name="description" content="my personal portfolio">
 
 
@@ -20,8 +20,8 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="">
-<meta property="og:title" content="">
-<meta property="og:url" content="http://localhost:4000/">
+<meta property="og:title" content="Contact Me">
+<meta property="og:url" content="http://localhost:4000/contact/">
 
 
   <meta property="og:description" content="my personal portfolio">
@@ -41,7 +41,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/">
+<link rel="canonical" href="http://localhost:4000/contact/">
 
 
 
@@ -251,7 +251,7 @@
 
 
   <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
-    
+    <meta itemprop="headline" content="Contact Me">
     
     
     
@@ -259,7 +259,10 @@
     <div class="page__inner-wrap">
       
         <header>
-          
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="http://localhost:4000/contact/" class="u-url" itemprop="url">Contact Me
+</a>
+          </h1>
           
 
 
@@ -268,10 +271,20 @@
 
       <section class="page__content e-content" itemprop="text">
         
-        <font size="+2"><b>Hey, I'm Jonathan - A Doctoral Student from California.</b></font> <br>
+        <p>Thanks for taking the time to check out my portfolio. If you want to get in contact with me, fill out the form below.</p>
 
-<font size="3"> My background is in computer science and statistics. I am currently pursuing my PhD at Harvard University with an interest in semi-competing risks and modeling of cost data. In the future, I want to work on developing new methods for and designing clinical trials.</font>
-
+<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xdobywzk" method="post">
+  <fieldset id="fs-frm-inputs">
+    <label for="full-name">Full Name</label>
+    <input type="text" name="name" id="full-name" placeholder="" required="" />
+    <label for="email-address">Email Address</label>
+    <input type="email" name="_replyto" id="email-address" placeholder="" required="" />
+    <label for="message">Message</label>
+    <textarea rows="5" name="message" id="message" placeholder="" required=""></textarea>
+    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission" />
+  </fieldset>
+  <input type="submit" value="Submit" />
+</form>
 
         
       </section>

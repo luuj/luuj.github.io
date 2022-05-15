@@ -1,11 +1,13 @@
 # main links
 main:
+  - title: "home"
+    url: /index/
   - title: "projects"
     url: /projects/
   - title: "courses"
     url: /courses/
   - title: "cv"
-    url: /Luu_Jonathan_CV.pdf
+    url: /assets/documents/Luu_Jonathan_CV.pdf
   - title: "contact"
     url: /contact/
 
