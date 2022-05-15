@@ -1,2 +1,2 @@
-# luuj.github.io
+# Personal website repository
 Code for my personal website
