@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "air" #"default" "air", "aqua", "contrast", "dark", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : " "
-title_separator          : " "
+title                    : "Jonathan Luu"
+title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "jonathan's portfolio"
-description              : "my personal portfolio"
+name                     : "Jonathan Luu's Portfolio"
+description              : "Jonathan Luu's Portfolio"
 url                      : "https://jonathanluu.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "luuj/luuj.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
