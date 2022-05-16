@@ -21,14 +21,14 @@ For this study, we collected longitudinal viral load, viral culture samples, and
 
 Supervised by Susan Groshen of USC Norris Cancer Center, I wanted to compare the 3+3 to more modern methods at evaluating dose limiting toxicity and maximum tolerated dose. We found that despite the lack of statistical theory backing the 3+3, it performed very well when compared to the continual reassessment method, several Bayesian methods, and the rolling 6. Check out <a href="https://github.com/luuj/3-3-Simulation">my paper and code here</a>.
 
-
-
-
 ## Pokemon Battle Simulator
 <img align="left" width="300" style="padding-right:10px;" src="/assets/images/pokemon.png"> 
+<br><br><br><br><br><br>
 
 ## Destructo-Block Mobile Game
 <img align="left" width="300" style="padding-right:10px;" src="/assets/images/destructo.png"> 
+<br><br><br><br><br><br>
+
 
 ## Inferno Tick Counter for Bluelite/Steroid OSRS Client
 <img align="left" width="300" style="padding-right:10px;" src="/assets/images/inferno.png"> 
