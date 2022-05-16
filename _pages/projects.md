@@ -67,7 +67,9 @@ Our goal with this project was to create a search engine that researchers can ea
 
 ## Google Web Crawler
 <img align="left" width="300" style="padding-right:10px;" src="/assets/images/google.png"> 
-<br><br><br><br><br><br>
+Google is the most used search engine in the world. I wanted to better understand how the search engine crawled through websites, which motivated this project.
+
+The project was a mainly a test of understanding various algorithms and data structures such as DFS, graph theory, crawling policies, and filtering. Check out my implementation <a href="https://github.com/luuj/Web-Parser">here</a>.
 
 ## GIF Making
 <img align="left" width="300" style="padding-right:10px;" src="/assets/images/hamtaro.png"> 
