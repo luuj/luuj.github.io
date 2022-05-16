@@ -5,7 +5,7 @@ permalink: /contact/
 classes: wide
 ---
 
-Thanks for taking the time to check out my portfolio. If you want to get in contact with me, fill out the form below.
+Thanks for taking the time to check out my portfolio. If you want to get in contact with me, send me an email or fill out the form below.
 
 <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xdobywzk" method="post">
   <fieldset id="fs-frm-inputs">
