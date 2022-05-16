@@ -19,10 +19,9 @@ I also volunteer with the Biostatistics Student Consulting Center (BSCC), which 
 
 Finally, I participate in the annual StatStart program, a summer program for high school students interested in data science and computing. Volunteers help teach programming in R and basic statistics in the form of lectures and lab,  develop computational thinking and problem-solving skills, and guide students on a final project and presentation.
 
+# Courses I've Taken  
 
 Below are the courses I have taken during my time at the University of Southern California and Harvard University. Through these courses, collaborations, and personal projects, I have developed a strong base in statistical theory and programming in a variety of languages.  
-
-# Courses I've Taken  
 
 ## Harvard University
 
