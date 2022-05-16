@@ -1,8 +1,8 @@
 ---
-title: CV and Resume 
-subtitle: Download Links
+title: Curriculum Vitae
+subtitle: Download Link
 description: CV and Resume
-featured_image: /images/portraits/school.webp
+featured_image: /images/portraits/cv.webp
 ---
 
-Click <a target="_blank" rel="noopener noreferrer" href="/images/Luu_Jonathan_CV.pdf">here</a> to download my CV.
+Click <a href="/images/Luu_Jonathan_CV.pdf">here</a> to download my CV.
