@@ -46,3 +46,10 @@ To learn the workflow of developing an Android mobile game, I recreated this fla
 ## Google Web Crawler
 <img align="left" width="300" style="padding-right:10px;" src="/assets/images/google.png"> 
 <br><br><br><br><br><br>
+
+## Improving the SEIR model for analyzing COVID19 spread
+<img align="left" width="300" style="padding-right:10px;" src="/assets/images/seir.png"> 
+<br><br><br><br><br><br>
+
+## GIF Making
+<img align="left" width="300" style="padding-right:10px;" src="/assets/images/hamtaro.png"> 
