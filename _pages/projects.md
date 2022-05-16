@@ -41,6 +41,12 @@ Supervised by Susan Groshen of USC Norris Cancer Center, I wanted to compare the
 <img align="left" width="300" style="padding-right:10px;" src="/assets/images/bladder.png"> 
 <br><br><br><br><br><br>
 
+## Inferno Tick Counter for Bluelite/Steroid OSRS Client
+<img align="left" width="300" style="padding-right:10px;" src="/assets/images/inferno.png"> 
+Old school runescape is a classic MMORPG that released back in 2001. Despite its age, the game still has around 80,000 active players and is growing. In the game, one of the hardest challenges a player can overcome is completing the Inferno, a 69 wave gauntlet of increasingly difficult combat puzzles. 
+
+A large number of players choose to use 3rd party clients to run the game, allowing for a plethora of plugins that improve quality of life. I wrote a customizeable plugin that tracks enemies and overlays a counter over them, indicating when they will next attack. This allows players to anticipate and defend against incoming attacks easily. You can download my plugin with accompanying instructions <a href="https://github.com/luuj/BlueLite-Inferno-Plugin">here</a>.
+
 ## Pokemon Battle Simulator
 <img align="left" width="300" style="padding-right:10px;" src="/assets/images/pokemon.png"> 
 Pokemon is a popular franchise where players set out to capture and battle creatures they encounter. I, along with 4 other friends, created this simulator which attempts to recreate the battling component of the Pokemon video games. 
@@ -53,15 +59,11 @@ Neopets was a popular website that allowed users to raise a cartoon pet, explore
 
 To learn the workflow of developing an Android mobile game, I recreated this flash game using assets from the original. I coded up the algorithm that enforces the game's rules, set up a point scoring system based on how many blocks were destroyed, and included a timer that limits how much time players had to complete each level. Levels were randomly generated and made to get increasingly harder. Check out the <a href="https://github.com/luuj/Destructo-Block">game here</a>.
 
-## Inferno Tick Counter for Bluelite/Steroid OSRS Client
-<img align="left" width="300" style="padding-right:10px;" src="/assets/images/inferno.png"> 
-Old school runescape is a classic MMORPG that released back in 2001. Despite its age, the game still has around 80,000 active players and is growing. In the game, one of the hardest challenges a player can overcome is completing the Inferno, a 69 wave gauntlet of increasingly difficult combat puzzles. 
-
-A large number of players choose to use 3rd party clients to run the game, allowing for a plethora of plugins that improve quality of life. I wrote a customizeable plugin that tracks enemies and overlays a counter over them, indicating when they will next attack. This allows players to anticipate and defend against incoming attacks easily. You can download my plugin with accompanying instructions <a href="https://github.com/luuj/BlueLite-Inferno-Plugin">here</a>.
-
 ## Polar Deep Web Crawler
 <img align="left" width="300" style="padding-right:10px;" src="/assets/images/deepweb.png"> 
-<br><br><br><br><br><br>
+The deep web is often associated with criminal activity. Furthermore, it is difficult to access the deep web unless you are explicitly looking. However, the deep web also holds a plethora of research information that cannot be easily accessed. 
+
+Our goal with this project was to create a search engine that researchers can easily use to scour the deep web for polar-related information. Furthermore, we developed many visualization tools using D3 that are integrated within the search engine to simplify the results. Check out the <a href="http://irds.usc.edu/polar.usc.edu/">website</a> and the <a href="https://github.com/USCDataScience/polar.usc.edu">codebase here</a>.
 
 ## Google Web Crawler
 <img align="left" width="300" style="padding-right:10px;" src="/assets/images/google.png"> 
