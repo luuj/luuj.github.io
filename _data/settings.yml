@@ -34,7 +34,7 @@ contact_settings:
 social_settings:
   github_url: 'https://github.com/luuj'
   google_url: 'https://scholar.google.com/citations?user=ngOsVV4AAAAJ&hl=en'
-  linkedin_url: "www.linkedin.com/in/jonathanluu95"
+  linkedin_url: 'https://linkedin.com/in/jonathanluu95'
 
 color_settings:
   background_color: '#ffffff'
