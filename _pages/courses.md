@@ -1,17 +1,18 @@
 ---
-layout: single
-title: "Courses"
-permalink: /courses/
-classes: wide
+title: Courses
+subtitle: My teaching and learning experience
+description: Courses I have taken
+featured_image: /images/portraits/school.webp
 ---
 
-# Courses I've Taught
+
+## Courses I've Taught
 
 During my time at Harvard, I have been a teaching assistant for three courses:
 
--	Applied Survival Analysis (BST223) - 2 years
--	Intro to Data Science (BST260) - 1 year
--   Survival Methods in Clinical Research (BST224) - 1 year
+* Applied Survival Analysis (BST223) - 2 years
+* Intro to Data Science (BST260) - 1 year
+* Survival Methods in Clinical Research (BST224) - 1 year
 
 Being a teaching assistant comprises of teaching labs and the occasional lecture, maintaining the course website, holding weekly office hours to answer questions, grading homeworks, attending weekly meetings with the professor, and creating course material (labs, homeworks, exams, in-class quizzes, and solutions).
 
@@ -19,13 +20,13 @@ I also volunteer with the Biostatistics Student Consulting Center (BSCC), which 
 
 Finally, I participate in the annual StatStart program, a summer program for high school students interested in data science and computing. Volunteers help teach programming in R and basic statistics in the form of lectures and lab,  develop computational thinking and problem-solving skills, and guide students on a final project and presentation.
 
-# Courses I've Taken  
+## Courses I've Taken 
 
 Below are the courses I have taken during my time at the University of Southern California and Harvard University. Through these courses, collaborations, and personal projects, I have developed a strong base in statistical theory and programming in a variety of languages.  
 
-## Harvard University
+### Harvard University
 
-### Statistics Courses
+#### Statistics Courses
 
 -	Probability I (BST230)
 -	Methods I (BST232)
@@ -44,7 +45,7 @@ Below are the courses I have taken during my time at the University of Southern 
 -	Health Survey Samples (BST239)
 -	Statistical Consultation (BST312)
 
-### Programming Courses
+#### Programming Courses
 
 -	Cancer Genome Data Science (BST283)
 -	Intro to Social & Biological Networks (BST267)
@@ -53,9 +54,9 @@ Below are the courses I have taken during my time at the University of Southern 
 -	Intro to Data Science (BST260)
 
 
-## University of Southern California
+### University of Southern California
 
-### Statistics Courses
+#### Statistics Courses
 
 -	Principles of Biostatistics (PM510)
 -	Principles of Epidemiology (PM512)
@@ -71,7 +72,7 @@ Below are the courses I have taken during my time at the University of Southern 
 -	Calculus III (MATH226)
 -	Linear Algebra and Linear Differential Equations (MATH225)
 
-### Programming Courses
+#### Programming Courses
 
 -	Introduction to Programming (CSCI103)
 -	Data Structures and Object-Oriented Design (CSCI104)
@@ -91,8 +92,3 @@ Below are the courses I have taken during my time at the University of Southern 
 -	Introduction to Computer Networks (EE450)
 -	Computer Systems Organization (EE457)
 - 	MOS VLSI Circuit Design (EE477)
-
-<br>
-
-
-

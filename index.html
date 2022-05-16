@@ -1,29 +1,60 @@
 ---
-layout: single
-author_profile: true
-classes: wide
+layout: default
+title: Home
+description: Jonathan Luu's Home Page
+featured_image: /images/portraits/pp.webp
 ---
 
-<div>
-	<font size="6"><b>Hey, I'm Jonathan.</b></font> <br>
-	<font size="4"> My background is in computer science and statistics. I am currently pursuing my PhD at Harvard University with an interest in semi-competing risks and modeling of cost data. In the future, I want to work on developing new methods for and designing clinical trials.</font><br>
-</div>
+<section class="blog single">
+
+	<div class="wrap">
+
+		{% for post in paginator.posts %}
+
+		<article class="blog-post">
+
+			<div class="blog-post__header">
+				<h2 class="blog-post__title">
+					{{ post.title }}
+					<!--<a href="{{ post.url | relative_url }}">{{ post.title }}</a >-->
+				</h2>
+				 <!-- <p class="blog-post__subtitle">{{ post.date | date_to_long_string }}</p> -->
+			</div>
+
+			<!--{% if post.featured_image %}
+			<a href="{{ post.url | relative_url }}" class="blog-post__image" style="background-image: url({{ post.featured_image | relative_url }});"></a>
+			{% endif %}-->
+
+			<div class="blog-post__content">
+				<p>{{ post.excerpt }}</p>
+				<!-- <p><a href="{{ post.url | relative_url }}" class="button">Read More</a> -->
+			</div>
 
 
-<div>
-	<p style="margin-bottom:2.5cm;"></p>
-	<font size="6"><b>Featured Projects</b></font> 
 
-	<figure class="third">
-		  <a href="/projects/#novel-bayesian-model-for-nursing-home-data">
-		  <img src="/assets/images/nursing.webp"></a>
+		</article>
 
-		  <a href="/projects/#covid19-duration-of-viral-shedding">
-		  <img src="/assets/images/covid.webp"></a>
+		{% endfor %}
 
-		  <a href="/projects/#phase-i-rcts-and-the-33-design">
-		  <img src="/assets/images/ct.webp"></a>
+	</div>
 
-	</figure>
+</section>
 
-</div>
+{% if paginator.total_pages > 1 %}
+
+<section class="pagination">
+
+	{% if paginator.previous_page %}
+	<div class="pagination__prev">
+		<a href="{{ paginator.previous_page_path | relative_url }}" class="button button--large"><i class="fa fa-angle-left" aria-hidden="true"></i> <span>Newer Posts</span></a>
+	</div>
+	{% endif %}
+	{% if paginator.next_page %}
+	<div class="pagination__next">
+		<a href="{{ paginator.next_page_path | relative_url }}" class="button button--large"><span>Older Posts</span> <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+	</div>
+	{% endif %}
+
+</section>
+
+{% endif %}
