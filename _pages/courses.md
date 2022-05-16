@@ -5,7 +5,7 @@ permalink: /courses/
 classes: wide
 ---
 
-Below are the courses I have taken during my time at the University of Southern California and Harvard University.
+Below are the courses I have taken during my time at the University of Southern California and Harvard University. Through these courses, collaborations, and personal projects, I have developed a strong base in statistical theory and programming in a variety of languages.    
 
 ## Harvard University
 
@@ -76,5 +76,14 @@ Below are the courses I have taken during my time at the University of Southern 
 -	Computer Systems Organization (EE457)
 - 	MOS VLSI Circuit Design (EE477)
 
+<br>
 
+# Courses I've Taught
 
+During my time at Harvard, I have been a teaching assistant for three courses:
+
+-	Applied Survival Analysis (BST223) - 2 years
+-	Intro to Data Science (BST260) - 1 year
+-   Survival Methods in Clinical Research (BST224) - 1 year
+
+Being a teaching assistant comprises of teaching labs and the occasional lecture, maintaining the course website, holding weekly office hours to answer questions, grading homeworks, attending weekly meetings with the professor, and creating course material (labs, homeworks, exams, in-class quizzes, and solutions).
