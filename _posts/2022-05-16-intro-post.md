@@ -1,10 +1,9 @@
 ---
-title: "Hey, I'm Jonathan"
+title: "Hey, I'm Jonathan."
 #featured_image: '/images/pp.webp'
 excerpt: My background is in computer science and statistics. I am currently pursuing my PhD at Harvard University with an interest in semi-competing risks and modeling of cost data. In the future, I want to work on developing new methods for and designing clinical trials. 
 ---
 
-![](/images/demo/demo-landscape.jpg)
 
 <!--
 
