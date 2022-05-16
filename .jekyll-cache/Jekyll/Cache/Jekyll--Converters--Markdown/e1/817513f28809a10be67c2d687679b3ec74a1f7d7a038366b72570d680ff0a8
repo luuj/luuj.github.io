@@ -1,299 +1,9 @@
-<!doctype html>
-<!--
-  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
-  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
-  Free for personal and commercial use under the MIT license
-  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
--->
-<html lang="en" class="no-js">
-  <head>
-    <meta charset="utf-8">
-
-<!-- begin _includes/seo.html --><title>Projects I’ve Worked On - Jonathan Luu</title>
-<meta name="description" content="Jonathan Luu’s Portfolio - Harvard University">
-
-
-  <meta name="author" content="Jonathan Luu">
-  
-
-
-<meta property="og:type" content="website">
-<meta property="og:locale" content="en_US">
-<meta property="og:site_name" content="Jonathan Luu">
-<meta property="og:title" content="Projects I’ve Worked On">
-<meta property="og:url" content="http://localhost:4000/projects/">
-
-
-  <meta property="og:description" content="Jonathan Luu’s Portfolio - Harvard University">
-
-
-
-
-
-
-
-
-
-
-
-  
-
-  
-
-
-<link rel="canonical" href="http://localhost:4000/projects/">
-
-
-
-
-<script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    
-      "@type": "Person",
-      "name": "Jonathan Luu's Portfolio - Harvard University",
-      "url": "http://localhost:4000/"
-    
-  }
-</script>
-
-
-
-
-
-
-
-<!-- end _includes/seo.html -->
-
-
-
-
-<!-- https://t.co/dKP3o1e -->
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<script>
-  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
-</script>
-
-<!-- For all browsers -->
-<link rel="stylesheet" href="/assets/css/main.css">
-<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
-
-
-
-    <!-- start custom head snippets -->
-
-<!-- insert favicons. use https://realfavicongenerator.net/ -->
-<link rel="icon" href="/assets/images/favicon.ico">
-
-<!-- end custom head snippets -->
-
-  </head>
-
-  <body class="layout--single wide">
-    <nav class="skip-links">
-  <ul>
-    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
-    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
-    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
-  </ul>
-</nav>
-
-    <!--[if lt IE 9]>
-<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
-<![endif]-->
-
-    
-
-<div class="masthead">
-  <div class="masthead__inner-wrap">
-    <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        
-        <a class="site-title" href="/">
-           
-          
-        </a>
-        <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="/">home</a>
-            </li><li class="masthead__menu-item">
-              <a href="/projects/">projects</a>
-            </li><li class="masthead__menu-item">
-              <a href="/courses/">courses</a>
-            </li><li class="masthead__menu-item">
-              <a href="/assets/documents/Luu_Jonathan_CV.pdf">cv</a>
-            </li><li class="masthead__menu-item">
-              <a href="/contact/">contact</a>
-            </li></ul>
-        
-        <button class="greedy-nav__toggle hidden" type="button">
-          <span class="visually-hidden">Toggle menu</span>
-          <div class="navicon"></div>
-        </button>
-        <ul class="hidden-links hidden"></ul>
-      </nav>
-    </div>
-  </div>
-</div>
-
-
-    <div class="initial-content">
-      
-
-
-
-<div id="main" role="main">
-  
-  <div class="sidebar sticky">
-  
-
-
-<div itemscope itemtype="https://schema.org/Person" class="h-card">
-
-  
-    <div class="author__avatar">
-      <a href="http://localhost:4000/">
-        <img src="/assets/images/pp.png" alt="Jonathan Luu" itemprop="image" class="u-photo">
-      </a>
-    </div>
-  
-
-  <div class="author__content">
-    <h3 class="author__name p-name" itemprop="name">
-      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">Jonathan Luu</a>
-    </h3>
-    
-      <div class="author__bio p-note" itemprop="description">
-        <p>PhD Candidate at Harvard. <br /> I research statistics.</p>
-
-      </div>
-    
-  </div>
-
-  <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">Links</button>
-    <ul class="author__urls social-icons">
-      
-        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
-          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">boston, ma</span>
-        </li>
-      
-
-      
-        
-          
-            <li><a href="mailto:jluu@g.harvard.edu" rel="nofollow noopener noreferrer me"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">jluu@g.harvard.edu</span></a></li>
-          
-        
-          
-            <li><a href="https://github.com/luuj" rel="nofollow noopener noreferrer me"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">github</span></a></li>
-          
-        
-          
-            <li><a href="https://scholar.google.com/citations?user=ngOsVV4AAAAJ&hl=en" rel="nofollow noopener noreferrer me"><i class="fab fa-fw fa-google" aria-hidden="true"></i><span class="label">google scholar</span></a></li>
-          
-        
-          
-            <li><a href="https://orcid.org/0000-0003-0167-8350" rel="nofollow noopener noreferrer me"><i class="fab fa-fw fa-orcid" aria-hidden="true"></i><span class="label">orcid</span></a></li>
-          
-        
-          
-            <li><a href="https://www.linkedin.com/" rel="nofollow noopener noreferrer me"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">linkedin</span></a></li>
-          
-        
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      <!--
-  <li>
-    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
-      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
-    </a>
-  </li>
--->
-    </ul>
-  </div>
-</div>
-  
-  </div>
-
-
-
-  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Projects I’ve Worked On">
-    
-    
-    
-
-    <div class="page__inner-wrap">
-      
-        <header>
-          <h1 id="page-title" class="page__title p-name" itemprop="headline">
-            <a href="http://localhost:4000/projects/" class="u-url" itemprop="url">Projects I’ve Worked On
-</a>
-          </h1>
-          
-
-
-        </header>
-      
-
-      <section class="page__content e-content" itemprop="text">
-        
-        <h2 id="novel-bayesian-model-for-nursing-home-data">Novel Bayesian Model for Nursing Home Data</h2>
+I"*/<h2 id="novel-bayesian-model-for-nursing-home-data">Novel Bayesian Model for Nursing Home Data</h2>
 <p><img align="left" width="300" style="padding-right:10px;" src="/assets/images/nursing.png" /> Nursing homes were hit hard during the COVID19 pandemic, and many news outlets reported rising interest in the quality of care of these nursing homes. I am developing more efficient models to analyze cost and healthcare utilization data from nursing homes. Furthermore, I am creating new joint metrics that can be used to better compare the quality of nursing homes.</p>
 
 <p>This project is the center of my current dissertation with Sebastien Haneuse. We are looking into a Bayesian model that can tackle the statistical challenges of clustered semi-continuous data. We are also incorporating the competing risk of death into our models, due to the high mortality rate in nursing homes. To see my current progress, check out my <a href="https://github.com/luuj/Semi-continuous-Bayesian-Modeling">simulation and model code</a> on GitHub.</p>
 
-<h2 id="covid19-duration-of-viral-shedding">COVID19 Duration of Viral Shedding</h2>
+<h2 id="covid19-duration-of-viral-shedding-study">COVID19 Duration of Viral Shedding Study</h2>
 <p><img align="left" width="300" style="padding-right:10px;" src="/assets/images/covid.png" /> Isolation and distancing practices are fundamental elements of COVID-19 epidemic control. However, the CDC currently recommends only 5 days of quarantine after a positive test. We were interested in whether this recommendation should be re-extended.</p>
 
 <p>For this study, we collected longitudinal viral load, viral culture samples, and CT values from Massachusetts General Hospital employees who tested positive for SARS-CoV-2. For our analysis, we adjusted for covariates including variants of the virus (original, delta, omicron) and vaccine status. We determined that the previous CDC recommendation of 10 days was needed. Check out our <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8855795/">paper</a> and <a href="https://github.com/luuj/SARS-CoV-2-Infection-Time">analysis code</a>.</p>
@@ -303,35 +13,31 @@
 
 <p>Supervised by Susan Groshen of USC Norris Cancer Center, I wanted to compare the 3+3 to more modern methods at evaluating dose limiting toxicity and maximum tolerated dose. We found that despite the lack of statistical theory backing the 3+3, it performed very well when compared to the continual reassessment method, several Bayesian methods, and the rolling 6. Check out <a href="https://github.com/luuj/3-3-Simulation">my paper and code here</a>.</p>
 
-<h2 id="improving-the-seir-model-for-analyzing-covid19-spread">Improving the SEIR model for Analyzing COVID19 Spread</h2>
+<h2 id="improving-the-seir-model-for-analyzing-covid19-spread">Improving the SEIR model for analyzing COVID19 spread</h2>
 <p><img align="left" width="300" style="padding-right:10px;" src="/assets/images/seir.png" /> 
 The SEIR (susceptible, exposed, infectious, recovered) model is commonly used to model infectious disease spread. In a recent paper by <a href="https://www.nature.com/articles/s41586-020-2554-8">Hao et al</a>, they propose expanding this model by appending 3 transition states: presymptomatic infectious (P), unascertained infectious (A), and isolation in hospital (H).</p>
 
 <p>Although the model was effective in predicting how COVID19 would spread through Wuhan, China, we wanted to improve on their Bayesian methodology. Within their Metropolis-Hastings step, we implemented a relatively new algorithm called DRAM (Delayed Rejection Adaptive Metropolis), allowing for more flexibility and adaptability of the algorithm. This allowed us to increase simulation speed significantly (from 1103 to 593 seconds) while not affecting statistical performance. See our implementation, proposal, and presentation <a href="https://github.com/luuj/Bayesian-Methodology/tree/main/SAPHIRE-master">here</a>.</p>
 
-<h2 id="blinded-sample-size-re-estimation">Blinded Sample Size Re-estimation</h2>
+<h2 id="blinded-sample-size-re-estimation">Blinded sample size re-estimation</h2>
 <p><img align="left" width="300" style="padding-right:10px;" src="/assets/images/ss.png" /> 
 Sample size and power calculations are critical when designing a clinical trial. In the past, clinical trials only performed these calculations at the start of the trial; however, researchers have begun implementing more adaptive procedures recently. For example, trials are often stopped to monitor if the treatment being evaluated is efficacious enough, or if the trial should be stopped for futility. During this stage, a common method of adaptation is performing sample size re-estimation to ensure that the trial has enough power to detect a difference between treatments.</p>
 
 <p>For this project, I was tasked to perform sample size re-estimation for the <a href="https://www.thelancet.com/journals/landia/article/PIIS2213-8587(19)30346-8/fulltext">Long-term Odanacatib Fracture Trial (LOFT)</a>. Furthermore, I wanted to test through simulation how the type I error would be affected from changes to the sample size, power, accrual rate, and how many years patients would be followed up for. Check out my analysis and simulation code <a href="https://github.com/luuj/Recurring-endpoints---SS-reestimation">here</a>.</p>
 
-<h2 id="comparing-naive-vs-robust-methods-for-cluster-randomized-trials">Comparing Naive vs. Robust Methods for Cluster Randomized Trials</h2>
+<h2 id="comparing-naive-vs-robust-methods-for-cluster-randomized-trials">Comparing naive vs. robust methods for cluster randomized trials</h2>
 <p><img align="left" width="300" style="padding-right:10px;" src="/assets/images/cluster.png" /> 
 Clustered randomized clinical trials are trials where patients are recruited in “clusters”. These clusters are typically locations where individuals are likely to be correlated with one another, such as a school, nursing home, or village. These types of trials are becoming increasingly popular; however, methodology is still being developed.</p>
 
 <p>When performing survival analysis on clinical trials, the proportional hazards Cox regression model is often used. The goal of this project was to determine if performing a naive analysis using the standard Cox model would be sufficient. I compared results from the naive model with the robust sandwich variant and randomization-based variant in 27 different scenarios. We discovered that despite not adjusting for the correlation inherent in these clusters, the naive Cox model still performed just as well as the other two models. Check out the code and presentation for my project <a href="https://github.com/luuj/Clustered-RCT-simulations">here</a>.</p>
 
-<h2 id="comparing-home-based-vs-hospital-based-palliative-care">Comparing Home-based vs. Hospital-based Palliative Care</h2>
+<h2 id="comparing-home-based-vs-hospital-based-palliative-care">Comparing home-based vs. hospital-based palliative care</h2>
 <p><img align="left" width="300" style="padding-right:10px;" src="/assets/images/palliative.png" /> 
-Palliative care focuses on providing relief from the symptoms and stress of an illness. The goal is to improve quality of life for both the patient and the family. However, some patients and families prefer receiving treatment in the comfort of their own home compared to at the hospital. We were interested in whether or not home-based palliative care was as effective as hospital-based palliative care.</p>
+<br /><br /><br /><br /><br /><br /></p>
 
-<p>This was a 5-year clinical trial enrolling 1155 participants. My main tasks involved managing confidential patient files sent from Blue Shield, creating surveys and scripts in the REDCap database, and recording/monitoring new inpatient referrals. I also created scripts to automatically create summaries of demographic information, ineligibility criteria, and patient concerns so that we could present them to the DSMB and funding agencies. Check out the <a href="https://pubmed.ncbi.nlm.nih.gov/31486727/">study</a> and my <a href="https://github.com/luuj/Palliative-care-clinical-trial">code here</a>.</p>
-
-<h2 id="eribulin-phase-ii-clinical-trial-for-bladder-cancer">Eribulin Phase II Clinical Trial for Bladder Cancer</h2>
+<h2 id="eribulin-phase-i-clinical-trial-for-bladder-cancer">Eribulin phase I clinical trial for bladder cancer</h2>
 <p><img align="left" width="300" style="padding-right:10px;" src="/assets/images/bladder.png" /> 
-Eribulin is a potential new treatment for bladder cancer. This was a combined phase I/II clinical trial aimed at determining whether or not Eribulin could move on to a phase III trial. At USC’s Norris Cancer Center, I worked with Susan Groshen on the statistical analysis of this trial data.</p>
-
-<p>First, we looked at the frequency of adverse events to generate toxicity tables for the DSMC report. Second, I coded up scripts to generate table I statistics, response tables, and Kaplan-Meier curves for progression-free and overall survival. Lastly, I ran a multivariate Cox regression model for progression-free survival. Check out the <a href="https://pubmed.ncbi.nlm.nih.gov/22198425/">paper</a> and <a href="https://github.com/luuj/Urothelial-carcinoma-study">my code here</a>.</p>
+<br /><br /><br /><br /><br /><br /></p>
 
 <h2 id="inferno-tick-counter-for-bluelitesteroid-osrs-client">Inferno Tick Counter for Bluelite/Steroid OSRS Client</h2>
 <p><img align="left" width="300" style="padding-right:10px;" src="/assets/images/inferno.png" /> 
@@ -367,84 +73,4 @@ Google is the most used search engine in the world. I wanted to better understan
 <p><img align="left" width="300" style="padding-right:10px;" src="/assets/images/hamtaro.png" /> 
 Last but not least, a fun side project of mine is making gifs. Whether it be of a cute cartoon or of my friends doing silly things, I find having personalized gifs is a great way to express yourself and get some laughs out of your friends. My GIPHY account has accumulated over 30,000 views so it is also rewarding seeing that other people are using something you <a href="https://tenor.com/users/hamtarofan">created</a>!</p>
 
-
-        
-      </section>
-
-      <footer class="page__meta">
-        
-        
-
-
-        
-
-      </footer>
-
-      
-
-      
-    </div>
-
-    
-  </article>
-
-  
-  
-</div>
-    </div>
-
-    
-
-    <div id="footer" class="page__footer">
-      <footer>
-        <!-- start custom footer snippets -->
-
-<!-- end custom footer snippets -->
-        <div class="page__footer-follow">
-  <ul class="social-icons">
-    
-      <li><strong>Links:</strong></li>
-    
-
-    
-      
-        
-          <li><a href="https://www.linkedin.com/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> linkedin</a></li>
-        
-      
-        
-          <li><a href="https://github.com/luuj" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> github</a></li>
-        
-      
-        
-          <li><a href="https://scholar.google.com/citations?user=ngOsVV4AAAAJ&hl=en" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-google" aria-hidden="true"></i> scholar</a></li>
-        
-      
-        
-          <li><a href="https://orcid.org/0000-0003-0167-8350" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-orcid" aria-hidden="true"></i> orcid</a></li>
-        
-      
-    
-
-    
-  </ul>
-</div>
-
-
-      </footer>
-    </div>
-
-    
-  <script src="/assets/js/main.min.js"></script>
-
-
-
-
-
-
-
-
-
-
-  </body>
-</html>
+:ET

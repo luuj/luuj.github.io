@@ -11,7 +11,7 @@ classes: wide
 
 This project is the center of my current dissertation with Sebastien Haneuse. We are looking into a Bayesian model that can tackle the statistical challenges of clustered semi-continuous data. We are also incorporating the competing risk of death into our models, due to the high mortality rate in nursing homes. To see my current progress, check out my <a href="https://github.com/luuj/Semi-continuous-Bayesian-Modeling">simulation and model code</a> on GitHub.
 
-## COVID19 Duration of Viral Shedding Study
+## COVID19 Duration of Viral Shedding
 <img align="left" width="300" style="padding-right:10px;" src="/assets/images/covid.png"> Isolation and distancing practices are fundamental elements of COVID-19 epidemic control. However, the CDC currently recommends only 5 days of quarantine after a positive test. We were interested in whether this recommendation should be re-extended.
 
 For this study, we collected longitudinal viral load, viral culture samples, and CT values from Massachusetts General Hospital employees who tested positive for SARS-CoV-2. For our analysis, we adjusted for covariates including variants of the virus (original, delta, omicron) and vaccine status. We determined that the previous CDC recommendation of 10 days was needed. Check out our <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8855795/">paper</a> and <a href="https://github.com/luuj/SARS-CoV-2-Infection-Time">analysis code</a>.
@@ -21,25 +21,36 @@ For this study, we collected longitudinal viral load, viral culture samples, and
 
 Supervised by Susan Groshen of USC Norris Cancer Center, I wanted to compare the 3+3 to more modern methods at evaluating dose limiting toxicity and maximum tolerated dose. We found that despite the lack of statistical theory backing the 3+3, it performed very well when compared to the continual reassessment method, several Bayesian methods, and the rolling 6. Check out <a href="https://github.com/luuj/3-3-Simulation">my paper and code here</a>.
 
-## Improving the SEIR model for analyzing COVID19 spread
+## Improving the SEIR model for Analyzing COVID19 Spread
 <img align="left" width="300" style="padding-right:10px;" src="/assets/images/seir.png"> 
-<br><br><br><br><br><br>
+The SEIR (susceptible, exposed, infectious, recovered) model is commonly used to model infectious disease spread. In a recent paper by <a href="https://www.nature.com/articles/s41586-020-2554-8">Hao et al</a>, they propose expanding this model by appending 3 transition states: presymptomatic infectious (P), unascertained infectious (A), and isolation in hospital (H). 
 
-## Blinded sample size re-estimation
+Although the model was effective in predicting how COVID19 would spread through Wuhan, China, we wanted to improve on their Bayesian methodology. Within their Metropolis-Hastings step, we implemented a relatively new algorithm called DRAM (Delayed Rejection Adaptive Metropolis), allowing for more flexibility and adaptability of the algorithm. This allowed us to increase simulation speed significantly (from 1103 to 593 seconds) while not affecting statistical performance. See our implementation, proposal, and presentation <a href="https://github.com/luuj/Bayesian-Methodology/tree/main/SAPHIRE-master">here</a>.
+
+## Blinded Sample Size Re-estimation
 <img align="left" width="300" style="padding-right:10px;" src="/assets/images/ss.png"> 
-<br><br><br><br><br><br>
+Sample size and power calculations are critical when designing a clinical trial. In the past, clinical trials only performed these calculations at the start of the trial; however, researchers have begun implementing more adaptive procedures recently. For example, trials are often stopped to monitor if the treatment being evaluated is efficacious enough, or if the trial should be stopped for futility. During this stage, a common method of adaptation is performing sample size re-estimation to ensure that the trial has enough power to detect a difference between treatments.
 
-## Comparing naive vs. robust methods for cluster randomized trials
+For this project, I was tasked to perform sample size re-estimation for the <a href="https://www.thelancet.com/journals/landia/article/PIIS2213-8587(19)30346-8/fulltext">Long-term Odanacatib Fracture Trial (LOFT)</a>. Furthermore, I wanted to test through simulation how the type I error would be affected from changes to the sample size, power, accrual rate, and how many years patients would be followed up for. Check out my analysis and simulation code <a href="https://github.com/luuj/Recurring-endpoints---SS-reestimation">here</a>.
+
+## Comparing Naive vs. Robust Methods for Cluster Randomized Trials
 <img align="left" width="300" style="padding-right:10px;" src="/assets/images/cluster.png"> 
-<br><br><br><br><br><br>
+Clustered randomized clinical trials are trials where patients are recruited in "clusters". These clusters are typically locations where individuals are likely to be correlated with one another, such as a school, nursing home, or village. These types of trials are becoming increasingly popular; however, methodology is still being developed.
 
-## Comparing home-based vs. hospital-based palliative care
+When performing survival analysis on clinical trials, the proportional hazards Cox regression model is often used. The goal of this project was to determine if performing a naive analysis using the standard Cox model would be sufficient. I compared results from the naive model with the robust sandwich variant and randomization-based variant in 27 different scenarios. We discovered that despite not adjusting for the correlation inherent in these clusters, the naive Cox model still performed just as well as the other two models. Check out the code and presentation for my project <a href="https://github.com/luuj/Clustered-RCT-simulations">here</a>.
+
+## Comparing Home-based vs. Hospital-based Palliative Care
 <img align="left" width="300" style="padding-right:10px;" src="/assets/images/palliative.png"> 
-<br><br><br><br><br><br>
+Palliative care focuses on providing relief from the symptoms and stress of an illness. The goal is to improve quality of life for both the patient and the family. However, some patients and families prefer receiving treatment in the comfort of their own home compared to at the hospital. We were interested in whether or not home-based palliative care was as effective as hospital-based palliative care.
 
-## Eribulin phase I clinical trial for bladder cancer
+This was a 5-year clinical trial enrolling 1155 participants. My main tasks involved managing confidential patient files sent from Blue Shield, creating surveys and scripts in the REDCap database, and recording/monitoring new inpatient referrals. I also created scripts to automatically create summaries of demographic information, ineligibility criteria, and patient concerns so that we could present them to the DSMB and funding agencies. Check out the <a href="https://pubmed.ncbi.nlm.nih.gov/31486727/">study</a> and my <a href="https://github.com/luuj/Palliative-care-clinical-trial">code here</a>.
+
+
+## Eribulin Phase II Clinical Trial for Bladder Cancer
 <img align="left" width="300" style="padding-right:10px;" src="/assets/images/bladder.png"> 
-<br><br><br><br><br><br>
+Eribulin is a potential new treatment for bladder cancer. This was a combined phase I/II clinical trial aimed at determining whether or not Eribulin could move on to a phase III trial. At USC's Norris Cancer Center, I worked with Susan Groshen on the statistical analysis of this trial data.
+
+First, we looked at the frequency of adverse events to generate toxicity tables for the DSMC report. Second, I coded up scripts to generate table I statistics, response tables, and Kaplan-Meier curves for progression-free and overall survival. Lastly, I ran a multivariate Cox regression model for progression-free survival. Check out the <a href="https://pubmed.ncbi.nlm.nih.gov/22198425/">paper</a> and <a href="https://github.com/luuj/Urothelial-carcinoma-study">my code here</a>.
 
 ## Inferno Tick Counter for Bluelite/Steroid OSRS Client
 <img align="left" width="300" style="padding-right:10px;" src="/assets/images/inferno.png"> 
