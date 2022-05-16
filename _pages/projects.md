@@ -55,7 +55,9 @@ To learn the workflow of developing an Android mobile game, I recreated this fla
 
 ## Inferno Tick Counter for Bluelite/Steroid OSRS Client
 <img align="left" width="300" style="padding-right:10px;" src="/assets/images/inferno.png"> 
-<br><br><br><br><br><br>
+Old school runescape is a classic MMORPG that released back in 2001. Despite its age, the game still has around 80,000 active players and is growing. In the game, one of the hardest challenges a player can overcome is completing the Inferno, a 69 wave gauntlet of increasingly difficult combat puzzles. 
+
+A large number of players choose to use 3rd party clients to run the game, allowing for a plethora of plugins that improve quality of life. I wrote a customizeable plugin that tracks enemies and overlays a counter over them, indicating when they will next attack. This allows players to anticipate and defend against incoming attacks easily. You can download my plugin with accompanying instructions <a href="https://github.com/luuj/BlueLite-Inferno-Plugin">here</a>.
 
 ## Polar Deep Web Crawler
 <img align="left" width="300" style="padding-right:10px;" src="/assets/images/deepweb.png"> 
@@ -67,3 +69,7 @@ To learn the workflow of developing an Android mobile game, I recreated this fla
 
 ## GIF Making
 <img align="left" width="300" style="padding-right:10px;" src="/assets/images/hamtaro.png"> 
+Last but not least, a fun side project of mine is making gifs. Whether it be of a cute cartoon or of my friends doing silly things, I find having personalized gifs is a great way to express yourself and get some laughs out of your friends. My GIPHY account has accumulated over 30,000 views so it is also rewarding seeing that other people are using something you <a href="https://tenor.com/users/hamtarofan">created</a>!
+
+
+
