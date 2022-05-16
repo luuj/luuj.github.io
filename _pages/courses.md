@@ -87,3 +87,9 @@ During my time at Harvard, I have been a teaching assistant for three courses:
 -   Survival Methods in Clinical Research (BST224) - 1 year
 
 Being a teaching assistant comprises of teaching labs and the occasional lecture, maintaining the course website, holding weekly office hours to answer questions, grading homeworks, attending weekly meetings with the professor, and creating course material (labs, homeworks, exams, in-class quizzes, and solutions).
+
+I also volunteer with the Biostatistics Student Consulting Center (BSCC), which provides free consulting services for students and post-docs from Harvard School of Public Health and Harvard Medical School. We offer guidance on study design, analysis planning, and statistical programming for clients' research projects, grant submissions, and dissertations.
+
+Finally, I participate in the annual StatStart program, a summer program for high school students interested in data science and computing. Volunteers help teach programming in R and basic statistics in the form of lectures and lab,  develop computational thinking and problem-solving skills, and guide students on a final project and presentation.
+
+
