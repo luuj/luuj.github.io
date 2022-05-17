@@ -9,10 +9,10 @@ featured_image: /images/portraits/projects.webp
 
 Nursing homes were hit hard during the COVID19 pandemic, leading to rising interest in the quality of care of these nursing homes. I am developing more efficient models to analyze cost and healthcare utilization data from nursing homes. Furthermore, I am creating new joint metrics that can be used to better compare the quality of nursing homes.
 
-This project is the center of my current dissertation with Sebastien Haneuse. We are looking into a Bayesian model that can tackle the statistical challenges of clustered semi-continuous data. We are also incorporating the competing risk of death into our models, due to the high mortality rate in nursing homes. To see my current progress, check out my <a href="https://github.com/luuj/Semi-continuous-Bayesian-Modeling">simulation and model code</a> on GitHub.
+This project is the center of my dissertation with Sebastien Haneuse. We are looking into a Bayesian model that can tackle the statistical challenges of clustered semi-continuous data. We are also incorporating the competing risk of death into our models, due to the high mortality rate in nursing homes. To see my current progress, check out my <a href="https://github.com/luuj/Semi-continuous-Bayesian-Modeling">simulation and model code</a> on GitHub.
 
 #### COVID19 Duration of Viral Shedding
-Isolation and distancing practices are fundamental elements of COVID-19 epidemic control. However, the CDC currently recommends only 5 days of quarantine after a positive test. We were interested in whether this recommendation should be re-extended.
+Isolation and distancing practices are fundamental elements of COVID19 epidemic control. However, the CDC currently recommends only 5 days of quarantine after a positive test. We were interested in whether this recommendation should be re-extended to 10 days.
 
 For this study, we collected longitudinal viral load, viral culture samples, and CT values from Massachusetts General Hospital employees who tested positive for SARS-CoV-2. For our analysis, we adjusted for covariates including variants of the virus (original, delta, omicron) and vaccine status. We determined that the previous CDC recommendation of 10 days was needed. Check out our <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8855795/">paper</a> and <a href="https://github.com/luuj/SARS-CoV-2-Infection-Time">analysis code</a>.
 
