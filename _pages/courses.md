@@ -39,7 +39,7 @@ Below are the courses I have taken during my time at the University of Southern 
 -	Adaptive Clinical Trials (BST254 II)
 -	Topics in Clinical Trials (BST238)
 -	Pharmacoepidemiology (EPI221)
--	Statistical & Quantatative Methods for Pharmaceutical Regulatory Science (BST217)
+-	Statistical & Quantitative Methods for Pharmaceutical Regulatory Science (BST217)
 -	Responsible Conduct of Research (HPM548)
 -	Bayesian Methodology (BST249)
 -	Health Survey Samples (BST239)
