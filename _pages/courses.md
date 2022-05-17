@@ -22,7 +22,7 @@ Finally, I participate in the annual StatStart program, a summer program for hig
 
 ## Courses I've Taken 
 
-Below are the courses I have taken during my time at the University of Southern California and Harvard University. Through these courses, collaborations, and personal projects, I have developed a strong base in statistical theory and programming in a variety of languages.  
+Below are the courses I have taken during my time at the University of Southern California and Harvard University. Through these courses, collaborations, and personal projects, I have developed a strong base in statistical theory and programming in several languages.  
 
 ### Harvard University
 
