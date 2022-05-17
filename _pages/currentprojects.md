@@ -62,9 +62,9 @@ Neopets was a popular website that allowed users to raise a cartoon pet, explore
 To learn the workflow of developing an Android mobile game, I recreated this flash game using assets from the original. I coded up the algorithm that enforces the game's rules, set up a point scoring system based on how many blocks were destroyed, and included a timer that limits how much time players had to complete each level. Levels were randomly generated and made to get increasingly harder. Check out the <a href="https://github.com/luuj/Destructo-Block">game here</a>.
 
 #### Polar Deep Web Crawler
-The deep web is often associated with criminal activity. Furthermore, it is difficult to access the deep web unless you are explicitly looking. However, the deep web also holds a plethora of research information that cannot be easily accessed. 
+The deep web is often associated with criminal activity and is difficult to access unless you are explicitly searching. However, the deep web holds a plethora of information that can be used for research.
 
-Our goal with this project was to create a search engine that researchers can easily use to scour the deep web for polar-related information. Furthermore, we developed many visualization tools using D3 that are integrated within the search engine to simplify the results. Check out the <a href="http://irds.usc.edu/polar.usc.edu/">website</a> and the <a href="https://github.com/USCDataScience/polar.usc.edu">codebase here</a>.
+Our goal with this project was to create a search engine that researchers can easily use to scour the deep web for polar-related information. We also developed many visualization tools using D3 that are integrated within the search engine to simplify the results. Check out the <a href="http://irds.usc.edu/polar.usc.edu/">website</a> and the <a href="https://github.com/USCDataScience/polar.usc.edu">codebase here</a>.
 
 #### Google Web Crawler
 Google is the most used search engine in the world. I wanted to better understand how the search engine crawled through websites, which motivated this project.
