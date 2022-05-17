@@ -17,6 +17,7 @@
 .socials__item {
 	display: inline-block;
 	margin-left: 2px;
+	text-align: center;
 
 	&:first-child {
 		margin-left: 0;
@@ -31,15 +32,15 @@
 	border-radius: 100%;
 	background: $text-light-color;
 	font-size: 17px;
-	line-height: 1;
+	line-height: 1.8;
 	color: $background-color;
 
 	@include mq(tabletp) {
 		width: 40px;
 		height: 40px;
 		font-size: 20px;
-		text-align: center;
 		line-height: 2;
+
 	}
 
 	svg {
