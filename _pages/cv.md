@@ -1,6 +1,6 @@
 ---
 title: Curriculum Vitae
-subtitle: Download Link
+subtitle: Download Link.
 description: CV and Resume
 featured_image: /images/portraits/cv.webp
 ---
