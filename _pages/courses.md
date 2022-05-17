@@ -1,6 +1,6 @@
 ---
 title: Courses
-subtitle: My teaching and learning experience
+subtitle: My teaching and learning experience.
 description: Courses I have taken
 featured_image: /images/portraits/school.webp
 ---
