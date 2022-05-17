@@ -26,18 +26,6 @@ defaults:
       type: "pages"
     values:
       layout: "page"
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-  -
-    scope:
-      path: ""
-      type: "projects"
-    values:
-      layout: "project"
 
 markdown: kramdown
 
@@ -49,9 +37,4 @@ sass:
   style: compressed
 
 plugins:
-  - jekyll-paginate
   - jekyll-sitemap
-
-paginate: 6
-paginate_path: "/blog/page:num/"
-  
