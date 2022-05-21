@@ -3,6 +3,9 @@ site: Jonathan Luu
 url: https://jonathanluu.com
 baseurl: 
 
+tagline: Jonathan Luu's Personal Portfolio
+description: Jonathan Luu's personal website to describe my projects, teaching experience, and courses taken.
+
 collections:
   pages:
     output: true
@@ -38,3 +41,4 @@ sass:
 
 plugins:
   - jekyll-sitemap
+  - jekyll-seo-tag
