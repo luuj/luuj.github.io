@@ -49,6 +49,23 @@
 	<!-- Extra Header JS Code -->
 	
 	
+	<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Projects</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Projects" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Projects I am working on" />
+<meta property="og:description" content="Projects I am working on" />
+<link rel="canonical" href="http://localhost:4000/currentprojects" />
+<meta property="og:url" content="http://localhost:4000/currentprojects" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-05-20T21:27:28-07:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Projects" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-05-20T21:27:28-07:00","datePublished":"2022-05-20T21:27:28-07:00","description":"Projects I am working on","headline":"Projects","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/currentprojects"},"url":"http://localhost:4000/currentprojects"}</script>
+<!-- End Jekyll SEO tag -->
+
 	
 </head>
 
@@ -170,24 +187,24 @@
 
 		<h4 id="novel-bayesian-model-for-nursing-home-data">Novel Bayesian Model for Nursing Home Data</h4>
 
-<p>Nursing homes were hit hard during the COVID19 pandemic, and many news outlets reported rising interest in the quality of care of these nursing homes. I am developing more efficient models to analyze cost and healthcare utilization data from nursing homes. Furthermore, I am creating new joint metrics that can be used to better compare the quality of nursing homes.</p>
+<p>Nursing homes were hit hard during the COVID19 pandemic, leading to rising interest in the quality of care of these nursing homes. I am developing more efficient models to analyze cost and healthcare utilization data from nursing homes. Furthermore, I am creating new joint metrics that can be used to better compare the quality of nursing homes.</p>
 
-<p>This project is the center of my current dissertation with Sebastien Haneuse. We are looking into a Bayesian model that can tackle the statistical challenges of clustered semi-continuous data. We are also incorporating the competing risk of death into our models, due to the high mortality rate in nursing homes. To see my current progress, check out my <a href="https://github.com/luuj/Semi-continuous-Bayesian-Modeling">simulation and model code</a> on GitHub.</p>
+<p>This project is the center of my dissertation with Sebastien Haneuse. We are looking into a Bayesian model that can tackle the statistical challenges of clustered semi-continuous data. We are also incorporating the competing risk of death into our models, due to the high mortality rate in nursing homes. To see my current progress, check out my <a href="https://github.com/luuj/Semi-continuous-Bayesian-Modeling">simulation and model code</a> on GitHub.</p>
 
 <h4 id="covid19-duration-of-viral-shedding">COVID19 Duration of Viral Shedding</h4>
-<p>Isolation and distancing practices are fundamental elements of COVID-19 epidemic control. However, the CDC currently recommends only 5 days of quarantine after a positive test. We were interested in whether this recommendation should be re-extended.</p>
+<p>Isolation and distancing practices are fundamental elements of COVID19 epidemic control. However, the CDC currently recommends only 5 days of quarantine after a positive test. We were interested in whether this recommendation should be re-extended to 10 days.</p>
 
 <p>For this study, we collected longitudinal viral load, viral culture samples, and CT values from Massachusetts General Hospital employees who tested positive for SARS-CoV-2. For our analysis, we adjusted for covariates including variants of the virus (original, delta, omicron) and vaccine status. We determined that the previous CDC recommendation of 10 days was needed. Check out our <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8855795/">paper</a> and <a href="https://github.com/luuj/SARS-CoV-2-Infection-Time">analysis code</a>.</p>
 
 <h4 id="phase-i-rcts-and-the-33-design">Phase I RCTs and the 3+3 Design</h4>
 <p>Before a drug can be introduced to market, it needs to undergo extensive testing. The first stage of this testing procedure is the phase I clinical trial, where drugs are tested for toxicity and the correct dosage. Currently, the most common design for phase I clinical trials is the 3+3.</p>
 
-<p>Supervised by Susan Groshen of USC Norris Cancer Center, I wanted to compare the 3+3 to more modern methods at evaluating dose limiting toxicity and maximum tolerated dose. We found that despite the lack of statistical theory backing the 3+3, it performed very well when compared to the continual reassessment method, several Bayesian methods, and the rolling 6. Check out <a href="https://github.com/luuj/3-3-Simulation">my paper and code here</a>.</p>
+<p>Supervised by Susan Groshen of USC Norris Cancer Center, I wanted to compare the 3+3 to more modern methods at evaluating dose limiting toxicity and maximum tolerated dose. We found that despite the lack of statistical theory backing the 3+3, it performed very well when compared to the continual reassessment method, several Bayesian methods, and the rolling 6. Additionally, its simplistic implementation was more desirable for researchers. Check out <a href="https://github.com/luuj/3-3-Simulation">my paper and code here</a>.</p>
 
 <h4 id="improving-the-seir-model-for-analyzing-covid19-spread">Improving the SEIR model for Analyzing COVID19 Spread</h4>
-<p>The SEIR (susceptible, exposed, infectious, recovered) model is commonly used to model infectious disease spread. In a recent paper by <a href="https://www.nature.com/articles/s41586-020-2554-8">Hao et al</a>, they propose expanding this model by appending 3 transition states: presymptomatic infectious (P), unascertained infectious (A), and isolation in hospital (H).</p>
+<p>The SEIR (susceptible, exposed, infectious, recovered) model is commonly used to model infectious disease spread. In a recent paper by <a href="https://www.nature.com/articles/s41586-020-2554-8">Hao et al</a>, they propose expanding this model by appending 3 transition states: presymptomatic infectious, unascertained infectious, and isolation in hospital.</p>
 
-<p>Although the model was effective in predicting how COVID19 would spread through Wuhan, China, we wanted to improve on their Bayesian methodology. Within their Metropolis-Hastings step, we implemented a relatively new algorithm called DRAM (Delayed Rejection Adaptive Metropolis), allowing for more flexibility and adaptability of the algorithm. This allowed us to increase simulation speed significantly (from 1103 to 593 seconds) while not affecting statistical performance. See our implementation, proposal, and presentation <a href="https://github.com/luuj/Bayesian-Methodology/tree/main/SAPHIRE-master">here</a>.</p>
+<p>Although the model was effective in predicting how COVID19 would spread through Wuhan, China, we wanted to improve on their implementation. Within their Metropolis-Hastings step, we introduced a relatively new algorithm called DRAM (Delayed Rejection Adaptive Metropolis), allowing for more flexibility and adaptability of the algorithm. This allowed us to increase simulation speed significantly (from 1103 to 593 seconds) while not affecting statistical performance. See our implementation, proposal, and presentation <a href="https://github.com/luuj/Bayesian-Methodology/tree/main/SAPHIRE-master">here</a>.</p>
 
 <h4 id="blinded-sample-size-re-estimation">Blinded Sample Size Re-estimation</h4>
 <p>Sample size and power calculations are critical when designing a clinical trial. In the past, clinical trials only performed these calculations at the start of the trial; however, researchers have begun implementing more adaptive procedures recently. For example, trials are often stopped to monitor if the treatment being evaluated is efficacious enough, or if the trial should be stopped for futility. During this stage, a common method of adaptation is performing sample size re-estimation to ensure that the trial has enough power to detect a difference between treatments.</p>
@@ -197,7 +214,7 @@
 <h4 id="comparing-naive-vs-robust-methods-for-cluster-randomized-trials">Comparing Naive vs. Robust Methods for Cluster Randomized Trials</h4>
 <p>Clustered randomized clinical trials are trials where patients are recruited in “clusters”. These clusters are typically locations where individuals are likely to be correlated with one another, such as a school, nursing home, or village. These types of trials are becoming increasingly popular; however, methodology is still being developed.</p>
 
-<p>When performing survival analysis on clinical trials, the proportional hazards Cox regression model is often used. The goal of this project was to determine if performing a naive analysis using the standard Cox model would be sufficient. I compared results from the naive model with the robust sandwich variant and randomization-based variant in 27 different scenarios. We discovered that despite not adjusting for the correlation inherent in these clusters, the naive Cox model still performed just as well as the other two models. Check out the code and presentation for my project <a href="https://github.com/luuj/Clustered-RCT-simulations">here</a>.</p>
+<p>When performing survival analysis on clinical trials, the proportional hazards Cox regression model is often used. The goal of this project was to determine if performing a naive analysis using the standard Cox model would be sufficient. I compared results from the naive model to the robust sandwich and randomization-based variants in 27 different scenarios. We discovered that despite not accounting for the correlation inherent in these clusters, the naive Cox model still performed just as well as the other two models. Check out the code and presentation for my project <a href="https://github.com/luuj/Clustered-RCT-simulations">here</a>.</p>
 
 <h4 id="comparing-home-based-vs-hospital-based-palliative-care">Comparing Home-based vs. Hospital-based Palliative Care</h4>
 <p>Palliative care focuses on providing relief from the symptoms and stress of an illness. The goal is to improve quality of life for both the patient and the family. However, some patients and families prefer receiving treatment in the comfort of their own home compared to at the hospital. We were interested in whether or not home-based palliative care was as effective as hospital-based palliative care.</p>
@@ -219,15 +236,15 @@
 
 <p>We implemented animated sprites, attributes from the player-run <a href="https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Wiki">wiki</a>, and the various battle formulas present in a typical Pokemon battle. Players are able to choose teams of 6 from the original 151 generation I Pokemon. Battle either locally or over WiFi with chat and emojis. Check out our implementation <a href="https://github.com/luuj/Battle-Simulator">here</a>.</p>
 
-<h4 id="destructo-block-mobile-game">Destructo-Block Mobile Game</h4>
+<h4 id="destruct-o-block-mobile-game">Destruct-o-Block Mobile Game</h4>
 <p>Neopets was a popular website that allowed users to raise a cartoon pet, explore an interactive point-and-click world, and play hundreds of flash games to earn neopoints. One addicting game from Neopets was Destruct-o-match, a puzzle game with a goal of destroying as many blocks as possible by clicking on bundles of adjacently colored blocks.</p>
 
 <p>To learn the workflow of developing an Android mobile game, I recreated this flash game using assets from the original. I coded up the algorithm that enforces the game’s rules, set up a point scoring system based on how many blocks were destroyed, and included a timer that limits how much time players had to complete each level. Levels were randomly generated and made to get increasingly harder. Check out the <a href="https://github.com/luuj/Destructo-Block">game here</a>.</p>
 
 <h4 id="polar-deep-web-crawler">Polar Deep Web Crawler</h4>
-<p>The deep web is often associated with criminal activity. Furthermore, it is difficult to access the deep web unless you are explicitly looking. However, the deep web also holds a plethora of research information that cannot be easily accessed.</p>
+<p>The deep web is often associated with criminal activity and is difficult to access unless you are explicitly searching. However, the deep web holds a plethora of information that can be used for research.</p>
 
-<p>Our goal with this project was to create a search engine that researchers can easily use to scour the deep web for polar-related information. Furthermore, we developed many visualization tools using D3 that are integrated within the search engine to simplify the results. Check out the <a href="http://irds.usc.edu/polar.usc.edu/">website</a> and the <a href="https://github.com/USCDataScience/polar.usc.edu">codebase here</a>.</p>
+<p>Our goal with this project was to create a search engine that researchers can easily use to scour the deep web for polar-related information. We also developed many visualization tools using D3 that are integrated within the search engine to simplify the results. Check out the <a href="http://irds.usc.edu/polar.usc.edu/">website</a> and the <a href="https://github.com/USCDataScience/polar.usc.edu">codebase here</a>.</p>
 
 <h4 id="google-web-crawler">Google Web Crawler</h4>
 <p>Google is the most used search engine in the world. I wanted to better understand how the search engine crawled through websites, which motivated this project.</p>

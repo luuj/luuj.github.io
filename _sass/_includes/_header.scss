@@ -39,7 +39,7 @@
 	bottom: 0;
 	right: 0;
 	background-size: cover;
-	background-position: center;
+	background-position: bottom;
 	background-repeat: no-repeat;
 	opacity: 0;
 	@include transition(opacity 0.4s ease-in-out);
