@@ -16,6 +16,12 @@ Isolation and distancing practices are fundamental elements of COVID19 epidemic 
 
 For this study, we collected longitudinal viral load, viral culture samples, and CT values from Massachusetts General Hospital employees who tested positive for SARS-CoV-2. For our analysis, we adjusted for covariates including variants of the virus (original, delta, omicron) and vaccine status. We determined that the previous CDC recommendation of 10 days was needed. Check out our <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8855795/">paper</a> and <a href="https://github.com/luuj/SARS-CoV-2-Infection-Time">analysis code</a>.
 
+#### Social Determinants of Health
+
+Social determinants of health (SDH) include factors such as age, race/ethnicity, sex, language, comorbidities, cultural group membership, and stress. In collaboration with Caring Health Center and the Implementation Science Center for Cancer Control Equity, we want to analyze the role that SDH play in health inequity. 
+
+The data was collected in electronic health record (EHR) format. However, this introduces the statistical complexity of incomplete / missing data. We want to develop methods that acknowledge the complexity and heterogeneity of the incomplete / missing EHR data, specifically in regard to SDH factors. Check out the analysis code for the project <a href="https://github.com/luuj/Caring-Health-Study">here</a>.
+
 #### Phase I RCTs and the 3+3 Design
 Before a drug can be introduced to market, it needs to undergo extensive testing. The first stage of this testing procedure is the phase I clinical trial, where drugs are tested for toxicity and the correct dosage. Currently, the most common design for phase I clinical trials is the 3+3.
 
