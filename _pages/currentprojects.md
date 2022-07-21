@@ -16,6 +16,11 @@ Isolation and distancing practices are fundamental elements of COVID19 epidemic 
 
 For this study, we collected longitudinal viral load, viral culture samples, and CT values from Massachusetts General Hospital employees who tested positive for SARS-CoV-2. For our analysis, we adjusted for covariates including variants of the virus (original, delta, omicron) and vaccine status. We determined that the previous CDC recommendation of 10 days was needed. Check out our <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8855795/">paper</a> and <a href="https://github.com/luuj/SARS-CoV-2-Infection-Time">analysis code</a>.
 
+#### HaSET Maternal and Child Health Research Program
+HaSET's mission is to advance the health of mothers, newborns and children by generating high quality evidence, training researchers, and translating results to programs and policies. It is a partnership of the world’s leading medical and research institutions Harvard T.H. Chan School of Public Health, Boston Children’s Hospital, St. Paul’s Hospital Millennium Medical College, and the Ethiopian Public Health Institute.
+
+In collaboration with the program's director, Grace Chan, and my advisor Sebastien Haneuse, we followed over 2000 infants from birth to 2 years of age to analyze the prevalence and incidence of stunting, a phenomena where the height and BMI of a child falls two standard deviations below the World Health Organization's average. Check out the HaSET project and its publications <a href="https://www.hsph.harvard.edu/haset/">here</a>.
+
 #### Social Determinants of Health
 
 Social determinants of health (SDH) include factors such as age, race/ethnicity, sex, language, comorbidities, cultural group membership, and stress. In collaboration with Caring Health Center and the Implementation Science Center for Cancer Control Equity, we want to analyze the role that SDH play in health inequity. 
