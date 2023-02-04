@@ -16,6 +16,13 @@ Isolation and distancing practices are fundamental elements of COVID19 epidemic 
 
 For this study, we collected longitudinal viral load, viral culture samples, and CT values from Massachusetts General Hospital employees who tested positive for SARS-CoV-2. For our analysis, we adjusted for covariates including variants of the virus (original, delta, omicron) and vaccine status. We determined that the previous CDC recommendation of 10 days was needed. Check out our <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8855795/">paper</a> and <a href="https://github.com/luuj/SARS-CoV-2-Infection-Time">analysis code</a>.
 
+#### Vaccine Hesitancy among Latinx Adults - a Cluster-randomized Crossover Trial
+Prior to the COVID-19 pandemic, the WHO declared vaccine hesitancy, defined as a delay in the acceptance or refusal of vaccination despite availability of vaccination services, as one of the top 10 threats to global health. Today, despite massive recent and ongoing global efforts, vaccine hesitancy remains a major threat, particularly in populations that experience health disparities rooted in structural racism. One such population is Hispanic/Latinx adults.
+
+There is an urgent need for innovative, practical, and sustainable strategies to address vaccine
+hesitancy among the priority population of Latinx adults. This project proposes to address this gap with
+a novel intervention that integrates evidence-based motivational interviewing (MI) into behavioral health (BH) services, coupled with electronic prompting, and vaccination access at the point of care. As a collaboration between Boston College, Harvard University, and East Boston Neighborhood Community Health Center, we will conduct a multiple-period cluster-randomized crossover trial within four programs at EBNHC. This trial will test the effectiveness of MI and BH interventions on COVID-19 vaccine uptake among Latinx adults and examine theory-based elements of vaccine hesitancy on the causal pathway between the intervention and vaccine uptake.
+
 #### HaSET Maternal and Child Health Research Program
 HaSET's mission is to advance the health of mothers, newborns and children by generating high quality evidence, training researchers, and translating results to programs and policies. It is a partnership of the world’s leading medical and research institutions Harvard T.H. Chan School of Public Health, Boston Children’s Hospital, St. Paul’s Hospital Millennium Medical College, and the Ethiopian Public Health Institute.
 

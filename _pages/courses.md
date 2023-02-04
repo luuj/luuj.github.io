@@ -10,7 +10,7 @@ featured_image: /images/portraits/school.webp
 
 During my time at Harvard, I have been a teaching assistant for three courses:
 
-* Applied Survival Analysis (BST223) - 2 years
+* Applied Survival Analysis (BST223) - 3 years
 * Intro to Data Science (BST260) - 1 year
 * Survival Methods in Clinical Research (BST224) - 1 year
 
