@@ -69,10 +69,10 @@ Eribulin is a potential new treatment for bladder cancer. This was a combined ph
 
 First, we looked at the frequency of adverse events to generate toxicity tables for the DSMC report. Second, I coded up scripts to generate table I statistics, response tables, and Kaplan-Meier curves for progression-free and overall survival. Lastly, I ran a multivariate Cox regression model for progression-free survival. Check out the <a href="https://pubmed.ncbi.nlm.nih.gov/22198425/">paper</a> and <a href="https://github.com/luuj/Urothelial-carcinoma-study">my code here</a>.
 
-#### Inferno tick counter for Bluelite/Steroid OSRS client
-Old school runescape is a classic MMORPG that released back in 2001. Despite its age, the game still has around 80,000 active players and is growing. In the game, one of the hardest challenges a player can overcome is completing the Inferno, a 69 wave gauntlet of increasingly difficult combat puzzles. 
+#### OSRS plugins for RuneLite client
+Old school runescape is a classic MMORPG that released back in 2001. Despite its age, the game still has around 140,000 active concurrent players and is growing. Although OSRS offers its own vanilla client, a majority of players choose to use a third-party client called RuneLite due to its open-source nature, quality-of-life improvements, and large developer presence.
 
-A large number of players choose to use 3rd party clients to run the game, allowing for a plethora of plugins that improve quality of life. I wrote a customizeable plugin that tracks enemies and overlays a counter over them, indicating when they will next attack. This allows players to anticipate and defend against incoming attacks easily. You can download my plugin with accompanying instructions <a href="https://github.com/luuj/BlueLite-Inferno-Plugin">here</a>.
+By using RuneLite, it allows for a plethora of plugins that improve quality of life that make the game significantly easier to play. Using IntelliJ and the RuneLite API, I wrote several customizeable plugins that do a variety of things including tracking enemies and overlaying a counter over them, tracking projectiles, ground objects, and helpers for various fights. Check out my various plugins <a href="https://github.com/luuj">here</a> and learn how to install them using the official RuneLite wiki. 
 
 #### Pokemon battle simulator
 Pokemon is a popular franchise where players set out to capture and battle creatures they encounter. I, along with 4 other friends, created this simulator which attempts to recreate the battling component of the Pokemon video games. 
