@@ -1,6 +1,6 @@
 ---
 title: Curriculum Vitae and Resume
-subtitle: Last updated 06/10/23.
+subtitle: Last updated 01/07/24.
 description: CV and Resume
 featured_image: /images/portraits/cv.webp
 ---
