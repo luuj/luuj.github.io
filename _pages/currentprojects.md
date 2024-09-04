@@ -23,26 +23,26 @@ Expanding on our hierarchical discrete-time model, we wanted to create a quantif
 #### Comparing methods for multiple-period cluster-randomized crossover trials
 CRTs are becoming more commonly used to assess the effectiveness of health interventions; however, they are often designed with a small number ($< 10$) of clusters. It is unclear which statistical methods are optimal in this extreme scenario, as common approaches typically assume for more than 40 clusters. More complex designs such as the multiple period cluster randomized crossover trial (MPCRCT) can be used to mitigate issues caused by a small number of clusters, but little work has been done on analyzing their properties in this setting. This project looks at the effectiveness of generalized linear mixed models (GLMM) and generalized estimating equations (GEE), along with their corresponding small sample variance corrections, for MPCRCTs with fewer than 10 clusters. Results of this simulation trial will be used as guidance for MI-VACUNA, an ongoing MPCRCT examining the effectiveness of motivational interviewing on vaccine hesitancy at two Boston community health centers.
 
-#### Vaccine hesitancy among Latinx adults
+#### Motivational interviewing for vaccine uptake in Latinx adults
 Prior to the COVID-19 pandemic, the WHO declared vaccine hesitancy, defined as a delay in the acceptance or refusal of vaccination despite availability of vaccination services, as one of the top 10 threats to global health. Today, despite massive recent and ongoing global efforts, vaccine hesitancy remains a major threat.
 
 This project proposes to address vaccine hesitancy with a novel intervention that integrates evidence-based motivational interviewing (MI) into behavioral health (BH) services, coupled with electronic prompting, and vaccination access at the point of care. As a collaboration between Boston College, Harvard University, and East Boston Neighborhood Community Health Center, we will conduct a multiple-period cluster-randomized crossover trial within four programs at EBNHC. This trial will test the effectiveness of MI and BH interventions on COVID-19 vaccine uptake among Latinx adults and examine theory-based elements of vaccine hesitancy on the causal pathway between the intervention and vaccine uptake.
 
-#### COVID19 duration of viral shedding
+#### Duration of viral shedding and culture positivity with post-vaccination breakthrough delta variant infections
 Isolation and distancing practices are fundamental elements of COVID19 epidemic control. However, the CDC currently recommends only 5 days of quarantine after a positive test. We were interested in whether this recommendation should be re-extended to 10 days.
 
 For this study, we collected longitudinal viral load, viral culture samples, and CT values from Massachusetts General Hospital employees who tested positive for SARS-CoV-2. For our analysis, we adjusted for covariates including variants of the virus (original, delta, omicron) and vaccine status. We determined that the previous CDC recommendation of 10 days was needed. Check out our <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8855795/">paper</a> and <a href="https://github.com/luuj/SARS-CoV-2-Infection-Time">analysis code</a>.
 
-#### HaSET maternal and child health research program
+#### Prevalence, incidence, and reversal pattern of childhood stunting from birth to age 2 years in Ethiopia
 Although there has been a reduction in stunting (low height/length for age), the prevalence of malnutrition in Ethiopia is still high. Child growth patterns and estimates of stunting are needed to determine vulnerabilities and potential for recovery. We collected longitudinal data to determine the prevalence, incidence and reversal of stunting among children aged 0-24 months. Overall, the evidence from this study highlights a chronically malnourished population with much of the burden driven by growth faltering during the neonatal periods as well as after 6 months of age. To end all forms of malnutrition, growth faltering in populations such as that in young children in Amhara, Ethiopia needs to be addressed. Check out the HaSET project <a href="https://www.hsph.harvard.edu/haset/">here</a> and our <a href="https://jamanetwork.com/journals/jamanetworkopen/article-abstract/2814235">paper</a>.
 
-#### Social determinants of health
+#### Determinants of social risk screening and response equity in community health centers
 
 Social determinants of health (SDH) include factors such as age, race/ethnicity, sex, language, comorbidities, cultural group membership, and stress. In collaboration with Caring Health Center and the Implementation Science Center for Cancer Control Equity, we want to analyze the role that SDH play in health inequity. 
 
 The data was collected in electronic health record (EHR) format. However, this introduces the statistical complexity of incomplete / missing data. We want to develop methods that acknowledge the complexity and heterogeneity of the incomplete / missing EHR data, specifically in regard to SDH factors. Check out the analysis code for the project <a href="https://github.com/luuj/Caring-Health-Study">here</a>.
 
-#### Phase I RCTs and the 3+3 design
+#### A simulation evaluation of the effectiveness and usability of the 3+3 design for phase I clinical trials
 Before a drug can be introduced to market, it needs to undergo extensive testing. The first stage of this testing procedure is the phase I clinical trial, where drugs are tested for toxicity and the correct dosage. Currently, the most common design for phase I clinical trials is the 3+3.
 
 Supervised by Susan Groshen of USC Norris Cancer Center, I wanted to compare the 3+3 to more modern methods at evaluating dose limiting toxicity and maximum tolerated dose. We found that despite the lack of statistical theory backing the 3+3, it performed very well when compared to the continual reassessment method, several Bayesian methods, and the rolling 6. Additionally, its simplistic implementation was more desirable for researchers. Check out <a href="https://www.proquest.com/openview/88a141f4bfd493b69231606fc30a02cb/1?pq-origsite=gscholar&cbl=18750&diss=y">my paper here</a>.
@@ -62,12 +62,12 @@ Clustered randomized clinical trials are trials where patients are recruited in 
 
 When performing survival analysis on clinical trials, the proportional hazards Cox regression model is often used. The goal of this project was to determine if performing a naive analysis using the standard Cox model would be sufficient. I compared results from the naive model to the robust sandwich and randomization-based variants in 27 different scenarios. We discovered that despite not accounting for the correlation inherent in these clusters, the naive Cox model still performed just as well as the other two models. Check out the code and presentation for my project <a href="https://github.com/luuj/Clustered-RCT-simulations">here</a>.
 
-#### Comparing home-based vs. hospital-based palliative care
+#### Expanding access to home-based palliative care: A randomized controlled trial
 Palliative care focuses on providing relief from the symptoms and stress of an illness. The goal is to improve quality of life for both the patient and the family. However, some patients and families prefer receiving treatment in the comfort of their own home compared to at the hospital. We were interested in whether or not home-based palliative care was as effective as hospital-based palliative care.
 
 This was a 5-year clinical trial enrolling 1155 participants. My main tasks involved managing confidential patient files sent from Blue Shield, creating surveys and scripts in the REDCap database, and recording/monitoring new inpatient referrals. I also created scripts to automatically create summaries of demographic information, ineligibility criteria, and patient concerns so that we could present them to the DSMB and funding agencies. Check out the <a href="https://pubmed.ncbi.nlm.nih.gov/31486727/">study</a> and my <a href="https://github.com/luuj/Palliative-care-clinical-trial">code here</a>.
 
-#### Eribulin phase II clinical trial for bladder cancer
+#### A phase I/II study of E7389 Halichondrin B analog in metastatic urothelial tract cancer and renal insufficiency
 Eribulin is a potential new treatment for bladder cancer. This was a combined phase I/II clinical trial aimed at determining whether or not Eribulin could move on to a phase III trial. At USC's Norris Cancer Center, I worked with Susan Groshen on the statistical analysis of this trial data.
 
 First, we looked at the frequency of adverse events to generate toxicity tables for the DSMC report. Second, I coded up scripts to generate table I statistics, response tables, and Kaplan-Meier curves for progression-free and overall survival. Lastly, I ran a multivariate Cox regression model for progression-free survival. Check out the <a href="https://pubmed.ncbi.nlm.nih.gov/22198425/">paper</a> and <a href="https://github.com/luuj/Urothelial-carcinoma-study">my code here</a>.
