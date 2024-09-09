@@ -44,9 +44,9 @@ Social determinants of health (SDH), including factors like age, race/ethnicity,
 The data, collected from electronic health records (EHR), presents challenges due to incomplete or missing information. Our goal is to develop methods that account for the complexity and diversity of this incomplete EHR data, with a focus on accurately addressing SDH factors.
 
 #### A simulation evaluation of the effectiveness and usability of the 3+3 design for phase I clinical trials
-Before a drug can be introduced to market, it needs to undergo extensive testing. The first stage of this testing procedure is the phase I clinical trial, where drugs are tested for toxicity and the correct dosage. Currently, the most common design for phase I clinical trials is the 3+3.
+Before a drug can be marketed, it must undergo extensive testing, starting with a phase I clinical trial to assess toxicity and determine the appropriate dosage. The 3+3 design is currently the most common approach for these trials.
 
-Supervised by Susan Groshen of USC Norris Cancer Center, I wanted to compare the 3+3 to more modern methods at evaluating dose limiting toxicity and maximum tolerated dose. We found that despite the lack of statistical theory backing the 3+3, it performed very well when compared to the continual reassessment method, several Bayesian methods, and the rolling 6. Additionally, its simplistic implementation was more desirable for researchers. Check out my paper <a href="https://www.proquest.com/openview/88a141f4bfd493b69231606fc30a02cb/1?pq-origsite=gscholar&cbl=18750&diss=y">here</a>.
+Under the supervision of Susan Groshen at USC Norris Cancer Center, I compared the 3+3 design with more modern methods for evaluating dose-limiting toxicity and maximum tolerated dose. We discovered that, despite the 3+3's limited statistical theory, it performed comparably to the continual reassessment method, several Bayesian methods, and the rolling 6. Its straightforward implementation also made it a more attractive option for researchers. Check out my paper <a href="https://www.proquest.com/openview/88a141f4bfd493b69231606fc30a02cb/1?pq-origsite=gscholar&cbl=18750&diss=y">here</a>.
 
 #### Improving the SEIR model for analyzing COVID19 spread
 
