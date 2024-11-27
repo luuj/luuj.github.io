@@ -2,7 +2,7 @@
 title: Curriculum Vitae and Resume
 subtitle: Last updated 11/01/24.
 description: CV and Resume
-featured_image: /images/portraits/cv.webp
+featured_image: /images/portraits/contact.webp
 ---
 
 Click <a href="/cv" onclick="window.open('/Luu_Jonathan_CV.pdf')">here</a> to download my CV.
